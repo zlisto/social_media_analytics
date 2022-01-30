@@ -1,5 +1,6 @@
 import re
 import numpy as np
+from typing import *
 
 
 #clean tweet text for doing TF, TF-IDF embeddings
