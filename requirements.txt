@@ -7,3 +7,4 @@ networkx
 transformers
 wordcloud
 umap-learn
+pyLDAvis==2.1.2
