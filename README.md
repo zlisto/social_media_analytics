@@ -10,6 +10,9 @@ Lecture 04 - Topic Models: [![Open In Colab](https://colab.research.google.com/a
 ## Homeworks
 HW1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW1.ipynb)
 
+HW2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW2.ipynb)
+
+
 
 
 
