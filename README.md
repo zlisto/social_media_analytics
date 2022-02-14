@@ -8,6 +8,8 @@ Lecture 04 - Topic Models: [![Open In Colab](https://colab.research.google.com/a
 
 Lecture 06 - Sentiment Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture06_SentimentAnalysis.ipynb)
 
+Lecture 08 - Time Series Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture08_TimeSeriesAnalysis.ipynb)
+
 
 ## Homeworks
 HW1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW1.ipynb)
