@@ -18,6 +18,10 @@ HW2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
 HW3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW3.ipynb)
 
+HW4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW4.ipynb)
+
+
+
 
 
 
