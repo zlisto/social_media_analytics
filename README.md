@@ -10,6 +10,8 @@ Lecture 06 - Sentiment Analysis: [![Open In Colab](https://colab.research.google
 
 Lecture 08 - Time Series Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture08_TimeSeriesAnalysis.ipynb)
 
+Lecture 08 - Network Centrality: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture10_NetworkCentrality.ipynb)
+
 
 ## Homeworks
 HW1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW1.ipynb)
@@ -19,6 +21,10 @@ HW2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 HW3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW3.ipynb)
 
 HW4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW4.ipynb)
+
+HW5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW5.ipynb)
+
+
 
 
 
