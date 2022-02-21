@@ -10,7 +10,9 @@ Lecture 06 - Sentiment Analysis: [![Open In Colab](https://colab.research.google
 
 Lecture 08 - Time Series Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture08_TimeSeriesAnalysis.ipynb)
 
-Lecture 08 - Network Centrality: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture10_NetworkCentrality.ipynb)
+Lecture 10 - Network Centrality: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture10_NetworkCentrality.ipynb)
+
+
 
 
 ## Homeworks
