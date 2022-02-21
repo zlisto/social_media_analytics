@@ -8,3 +8,5 @@ transformers
 wordcloud
 umap-learn
 pyLDAvis==2.1.2
+holoviews
+bokeh
