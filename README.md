@@ -12,6 +12,8 @@ Lecture 08 - Time Series Analysis: [![Open In Colab](https://colab.research.goog
 
 Lecture 10 - Network Centrality: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture10_NetworkCentrality.ipynb)
 
+Lecture 12 - Community Detection: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture12_CommunityDetection.ipynb)
+
 
 
 
@@ -25,6 +27,9 @@ HW3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 HW4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW4.ipynb)
 
 HW5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW5.ipynb)
+
+HW6: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW6.ipynb)
+
 
 
 
