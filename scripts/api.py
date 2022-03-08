@@ -91,7 +91,7 @@ class Follow:
         while counter < target_total:
             response = requests.request("GET", url, headers=headers, params=params)
             if response.status_code == 429:
-                logger.info('Sleeping')
+                logger.info(f'Status code 429: sleeping for {Follow().sleep_time} minutes')
                 time.sleep(int(60 * Follow().sleep_time))
                 continue
             if response.status_code != 200:
@@ -113,7 +113,7 @@ class Follow:
 
     @classmethod
     def fetch(cls, users: Optional[List[str]] = None, user_ids: Optional[List[str]] = None, kind: str = 'following',
-              target_total: int = 100, token_number: int = 3) -> pd.Series:
+              target_total: int = 100, token_number: int = 0) -> pd.Series:
         """
         Demo
         users = ['barackobama', 'justinbieber', 'katyperry', 'rihanna', 'cristiano', 'taylorswift13', 'arianagrande']
@@ -347,7 +347,8 @@ class User:
             user_info = pd.DataFrame(data['data'])
             features = user_info['public_metrics'].apply(pd.Series)
             data = pd.concat([user_info, features], axis=1).drop('public_metrics', axis=1)
-
+            if 'location' not in data.columns:
+                data['location'] = None
             column_list = ['created_at','name','username',
             'description','id','location',
             'followers_count','following_count','listed_count','tweet_count']
