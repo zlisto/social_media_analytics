@@ -10,6 +10,7 @@ from utils.logger import logger
 from typing import *
 
 SEARCH = "https://api.twitter.com/2/tweets/search/all"
+SEARCH_RECENT = "https://api.twitter.com/2/tweets/search/recent"
 
 
 class DB:
@@ -166,7 +167,30 @@ class History:
             'user.fields': 'username',
             'query': arg['value']
         }
+    @classmethod
+    def custom_params_recent(cls, arg: Dict[str, str], max_results: int = 10):
+        """
+        Example of arg:
+        {"value": "#DOGE"}
+        {"value": "#AAVE -is:retweet"}
+        {"value": "#BTC from:elonmusk"}
+        Parameters
+        ----------
+        arg
+        max_results
 
+        Returns
+        -------
+
+        """
+        return {
+             'tweet.fields': 'id,author_id,created_at,in_reply_to_user_id,possibly_sensitive,public_metrics,lang,source,entities,geo,conversation_id',
+            'max_results': max_results,
+            'expansions': 'attachments.media_keys,author_id,geo.place_id',
+            'media.fields': 'duration_ms,media_key,url,type,public_metrics',
+            'user.fields': 'username',
+            'query': arg['value']
+        }
     @classmethod
     def fetch(cls, keyword: str, start_date: str, end_date: str, max_results: int = 100, target_total: int = 1000,
                    token_number: int = 0, sleep_time: int = 15, tag: str = '', language: str = 'en', retweets: bool = False) -> pd.DataFrame:
@@ -235,7 +259,71 @@ class History:
                                 'entities']
             return df[column_list]
 
+    @classmethod
+    def fetch_recent(cls, keyword: str, max_results: int = 100, 
+        target_total: int = 1000,token_number: int = 0, sleep_time: int = 15, tag: str = '', language: str = 'en', retweets: bool = False) -> pd.DataFrame:
+            """
+            Usage:
+            data = History.fetch_recent(keyword='HEX')
 
+            Parameters
+            ----------
+            keyword
+            max_results
+            target_total
+            token_number
+            sleep_time
+
+            Returns
+            -------
+
+            """
+            counter = 0
+            results = []
+            headers = History.create_headers(bearer_token=eval('BEARER{}'.format(str(token_number))))
+            retweet_status = '-is:retweet' if not retweets else retweets
+            if len(tag) == 1:
+                keyword = tag + keyword
+            params = History.custom_params_recent(arg={"value": "{keyword} lang:{language} {retweet_status}".format(keyword=keyword, language=language, retweet_status=retweet_status)},
+                                           max_results=max_results)
+            while counter < target_total:
+                time.sleep(1)
+                response = requests.request("GET", SEARCH_RECENT, headers=headers, params=params)
+                if response.status_code == 429:
+                    logger.info('Sleeping')
+                    time.sleep(int(60 * sleep_time))
+                    continue
+                if response.status_code != 200:
+                    continue
+                data = json.loads(response.text)
+                if not 'data' in data.keys():
+                    break
+                data, meta = pd.DataFrame(data['data']), data['meta']
+                logger.info('Fetched {} tweets'.format(len(data)))
+                counter += len(data)
+                data = pd.concat([data, data['public_metrics'].apply(pd.Series)], axis=1, sort=False).drop('public_metrics', axis=1)
+                results.append(data)
+                if not 'next_token' in list(meta.keys()):
+                    break
+                else:
+                    params['next_token'] = meta['next_token']
+            if len(results) > 0:
+                df = pd.concat(results, axis=0, sort=False)
+                for col in df.columns:
+                    if df[col].dtype == object:
+                        df[col] = df[col].apply(lambda x: np.nan if x == np.nan
+                        else str(x).encode('utf-8', 'replace').decode('utf-8'))
+                if 'geo' not in df.columns:
+                    df['geo'] = 'None'
+                if 'screen_name' not in df.columns:
+                    df['screen_name'] = 'None'
+                if 'entities' not in df.columns:
+                    df['entities'] = 'None'
+                column_list = ['created_at','screen_name','text','lang',
+                                    'retweet_count','reply_count','like_count','quote_count',
+                                    'id','author_id','conversation_id','in_reply_to_user_id','geo',
+                                    'entities']
+                return df[column_list]
 class Tweet:
 
     def __init__(self):
