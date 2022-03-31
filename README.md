@@ -16,6 +16,7 @@ Lecture 12 - Community Detection: [![Open In Colab](https://colab.research.googl
 
 Lecture 14 - Visualizing Networks: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture14_VisualizingNetworks.ipynb)
 
+Lecture 15 - Twitter Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture15_TwitterAnalysis.ipynb)
 
 
 
