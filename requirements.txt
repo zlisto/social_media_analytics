@@ -12,3 +12,4 @@ holoviews
 bokeh
 sklearn
 openai
+wandb
