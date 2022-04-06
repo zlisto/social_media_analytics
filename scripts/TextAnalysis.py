@@ -2,6 +2,7 @@ import re
 import numpy as np
 from typing import *
 import gensim
+import pandas as pd
 
 #clean tweet text for doing TF, TF-IDF embeddings
 def clean_tweet(elem):
