@@ -51,3 +51,36 @@ def _sentiment_classifier(data):
     #print(f"Sentiment:{sentiment:.2f}\nText: {text}\n")
     return sentiment
 
+#display output text from generator
+def display_text(outputs):
+    for count,output in enumerate(outputs):
+        text = output['generated_text']
+        text = text.replace("\n"," ").replace("\r"," ")
+        print(f"{count}: {text}")
+    return None
+
+#sample words from a generator given an input text
+def sample_words(input_text,generator,nsamples):
+    max_length = len(input_text.split(" "))+1
+    outputs = generator(input_text, 
+                             max_length=max_length,
+                            pad_token_id = 50256,                         
+                            num_return_sequences=nsamples,
+                             do_sample=True, 
+                            top_k=0
+                            )
+
+    W = []
+    for count,output in enumerate(outputs):
+        text = output['generated_text']
+        text = text.replace("\n"," ").replace("\r"," ").replace(input_text,"")
+        W.append(text)
+    counter = Counter(W)
+
+    words = [x for x in counter.keys()]
+    freqs = [x for x in counter.values()]
+
+    df_freq = pd.DataFrame({'word':words,'freq':freqs})
+    df_freq.sort_values(by = 'freq', ascending = False, inplace = True)
+    df_freq.head()
+    return df_freq
