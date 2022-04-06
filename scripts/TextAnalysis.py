@@ -3,6 +3,7 @@ import numpy as np
 from typing import *
 import gensim
 import pandas as pd
+import textwrap as tr
 
 #clean tweet text for doing TF, TF-IDF embeddings
 def clean_tweet(elem):
@@ -57,7 +58,7 @@ def display_text(outputs):
     for count,output in enumerate(outputs):
         text = output['generated_text']
         text = text.replace("\n"," ").replace("\r"," ")
-        print(f"{count}: {text}")
+        print(f"{count}: {tr.fill(text,width = 50)}")
     return None
 
 #sample words from a generator given an input text
