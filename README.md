@@ -34,7 +34,10 @@ HW5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
 HW6: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW6.ipynb)
 
-HW6: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW7.ipynb)
+HW7: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW7.ipynb)
+
+HW8: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW8.ipynb)
+
 
 
 
