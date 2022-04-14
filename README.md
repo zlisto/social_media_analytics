@@ -20,6 +20,7 @@ Lecture 15 - Twitter Analysis: [![Open In Colab](https://colab.research.google.c
 
 Lecture 17 - Natural Language Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture17_NaturalLanguageGeneration.ipynb)
 
+Lecture 19 - A/B Testing: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture19_ABTesting.ipynb)
 
 ## Homeworks
 HW1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW1.ipynb)
