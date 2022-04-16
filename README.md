@@ -25,7 +25,7 @@ Lecture 19 - A/B Testing: [![Open In Colab](https://colab.research.google.com/as
 
 Lecture 21 - BigGAN: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_BigGAN_TF_Hub_Demo.ipynb)
 
-Lecture 21 - StyleGAN2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_Fake_Faces_with_StyleGAN2.ipynb)
+Lecture 21 - StyleGAN2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_StyleGAN2.ipynb)
 
 Lecture 21 - DALLE: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
 
