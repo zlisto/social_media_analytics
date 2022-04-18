@@ -27,7 +27,7 @@ Lecture 21 - BigGAN: [![Open In Colab](https://colab.research.google.com/assets/
 
 Lecture 21 - StyleGAN2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_StyleGAN2.ipynb)
 
-Lecture 21 - DALLE: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
+Lecture 21 - DALL-E: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
 
 
 ## Homeworks
