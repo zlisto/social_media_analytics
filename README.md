@@ -29,6 +29,8 @@ Lecture 21 - StyleGAN2: [![Open In Colab](https://colab.research.google.com/asse
 
 Lecture 21 - DALL-E: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
 
+Lecture 23 - Twitter Bot: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture23_TwitterBot.ipynb)
+
 
 ## Homeworks
 HW1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW1.ipynb)
