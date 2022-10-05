@@ -31,7 +31,7 @@ Lecture 21 - DALL-E: [![Open In Colab](https://colab.research.google.com/assets/
 
 Lecture 23 - Twitter Bot: Does not work in Colab because of the Twitter API.  Must be run on your local machine
 
-Special Lecture - GPT-3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/GPT-3.ipynb)
+Special Lecture - GPT-3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/GPT_3.ipynb)
 
 
 ## Homeworks
