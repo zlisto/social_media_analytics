@@ -2,7 +2,7 @@ pandas
 numpy
 seaborn
 matplotlib
-sqlalchemy
+sqlalchemy==1.4.39
 loguru
 networkx==2.6.3
 transformers
