@@ -3,10 +3,10 @@ numpy
 seaborn
 matplotlib
 sqlalchemy==1.4.39
-loguru
+loguru==0.6.0
 networkx==2.6.3
 transformers
-wordcloud
+wordcloud==1.8.2.2
 umap-learn
 pyLDAvis==2.1.2
 holoviews
