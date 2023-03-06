@@ -254,7 +254,7 @@ class History:
             if 'entities' not in df.columns:
                 df['entities'] = 'None'
             column_list = ['created_at','screen_name','text','lang',
-                                'retweet_count','reply_count','like_count','quote_count',
+                                'retweet_count','reply_count','like_count','quote_count','impression_count',
                                 'id','author_id','conversation_id','in_reply_to_user_id','geo',
                                 'entities']
             return df[column_list]
@@ -320,7 +320,7 @@ class History:
                 if 'entities' not in df.columns:
                     df['entities'] = 'None'
                 column_list = ['created_at','screen_name','text','lang',
-                                    'retweet_count','reply_count','like_count','quote_count',
+                                    'retweet_count','reply_count','like_count','quote_count','impression_count',
                                     'id','author_id','conversation_id','in_reply_to_user_id','geo',
                                     'entities']
                 return df[column_list]
@@ -387,7 +387,7 @@ class Tweet:
                 if 'screen_name' not in df.columns:
                     df['screen_name'] = 'None'
                 column_list = ['created_at','screen_name','text','lang',
-                                'retweet_count','reply_count','like_count','quote_count',
+                                'retweet_count','reply_count','like_count','quote_count','impression_count',
                                 'id','author_id','conversation_id','in_reply_to_user_id','geo']
                 
                 return df[column_list]
