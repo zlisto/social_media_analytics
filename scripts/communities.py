@@ -8,7 +8,7 @@ import random
 def spectral_communities(G,k=2):
     A = nx.adjacency_matrix(G.to_undirected())
     clustering =SpectralClustering(n_clusters=k, eigen_solver=None, affinity='precomputed')
-    clusters = clustering.fit(A)
+    clusters = clustering.fit(A.todense())
     C = clustering.labels_
     V = [v for v in G.nodes()]
     df_spec = pd.DataFrame({'screen_name':V, 'community':C})
