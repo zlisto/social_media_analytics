@@ -4,7 +4,7 @@ seaborn
 matplotlib
 sqlalchemy==1.4.39
 loguru==0.6.0
-networkx==2.6.3
+networkx==3.0
 transformers
 wordcloud==1.8.2.2
 umap-learn
