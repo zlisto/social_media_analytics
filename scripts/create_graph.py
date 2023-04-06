@@ -126,7 +126,7 @@ def following_networkx_from_following_list(filename):
     return(G)
             
    
-def retweet_similarity_network(G):
+def retweet_similarity_network(G, smin = 0, ne_max = 1e7):
     V = list(G.nodes())
     print(f'{len(V)} nodes in retweet network')
 
@@ -138,16 +138,17 @@ def retweet_similarity_network(G):
     preds = nx.jaccard_coefficient(G.to_undirected(),ebunch)
     print(len(ebunch), " node pairs to check Jaccard index")
 
-    print("Create similarity graph between nodes using Jacard coefficient based on retweets")
+    print(f"Create similarity graph using Jacard coefficient > {smin:.3f}")
     counter = 0
     Gsim = nx.Graph()
     ne = 0
     for u, v, s in preds:
         counter+=1
-        if s >0:
+        if s >smin:
             Gsim.add_edge(u, v, weight=s)
             ne+=1
         if counter%1e6==0:print(counter,ne, " positive weights")
+        if ne>ne_max:break
     nv = Gsim.number_of_nodes()
     ne = Gsim.number_of_edges()
     print("Gsim has %s nodes, %s edges"%(nv,ne))
