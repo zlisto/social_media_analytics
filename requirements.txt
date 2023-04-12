@@ -8,7 +8,7 @@ networkx==3.0
 transformers
 wordcloud==1.8.2.2
 umap-learn
-pyLDAvis==2.1.2
+pyLDAvis==3.4.0
 holoviews
 bokeh
 scikit-learn
