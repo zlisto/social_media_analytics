@@ -14,3 +14,5 @@ bokeh
 scikit-learn
 openai
 wandb
+requests_oauthlib
+Pillow
