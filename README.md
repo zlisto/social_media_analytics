@@ -32,6 +32,7 @@ Lecture 21 - StyleGAN2: [![Open In Colab](https://colab.research.google.com/asse
 Lecture 21 - DALL-E: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
 
 Lecture 23 - Twitter Bot: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture23_TwitterBot.ipynb)
+
 Note: Tweeting does not work in Colab.  Must be run on your local machine to actually post on Twitter.
 
 Special Lecture - GPT-3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/GPT_3.ipynb)
