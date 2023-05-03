@@ -40,16 +40,18 @@ class DB:
 
         elif table_name=='user_tweets':
             header_dict_user_tweets = {0:"created_at",1:"screen_name",2:'text',3:'lang',
-               4:'retweet_count',5:'reply_count',6:'like_count', 7:"quote_count",
-               8:"id",9:"author_id",10:"conversation_id",11:"in_reply_to_user_id",12:"geo"}
+               4:'retweet_count',5:'reply_count',6:'like_count', 7:"quote_count", 8:'impression_count',
+               9:"id", 10:"author_id", 11:"conversation_id", 12:"in_reply_to_user_id", 13:"geo",
+               14:'entities'}
             df = df.rename(header_dict_user_tweets,axis = 1)
 
         elif table_name == 'keyword_tweets':
             
             header_dict_keyword_tweets =  {0:"created_at",1:"screen_name",2:'text',3:'lang',
-               4:'retweet_count',5:'reply_count',6:'like_count', 7:"quote_count",
-               8:"id",9:"author_id",10:"conversation_id",11:"in_reply_to_user_id",12:"geo",
-               13:'entities'}
+               4:'retweet_count',5:'reply_count',6:'like_count', 7:"quote_count", 8:'impression_count',
+               9:"id", 10:"author_id", 11:"conversation_id", 12:"in_reply_to_user_id", 13:"geo",
+               14:'entities'}
+
 
             df = df.rename(header_dict_keyword_tweets,axis = 1)
 
