@@ -35,7 +35,7 @@ Lecture 23 - Twitter Bot: [![Open In Colab](https://colab.research.google.com/as
 
 Note: Tweeting does not work in Colab.  Must be run on your local machine to actually post on Twitter.
 
-Special Lecture - GPT-3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/GPT_3.ipynb)
+Special Lecture - GPT-4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/GPT_4.ipynb)
 
 
 ## Homeworks
