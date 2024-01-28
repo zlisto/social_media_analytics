@@ -6,9 +6,9 @@ sqlalchemy==1.4.39
 loguru==0.6.0
 networkx==3.0
 transformers
-wordcloud==1.8.2.2
+wordcloud==1.9.3
 umap-learn
-pyLDAvis==3.4.0
+pyLDAvis==3.4.1
 holoviews
 bokeh
 scikit-learn
