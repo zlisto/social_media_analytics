@@ -2,15 +2,9 @@ pandas
 numpy
 seaborn
 matplotlib
-sqlalchemy==1.4.39
-loguru==0.6.0
 networkx==3.0
 transformers
 wordcloud==1.9.3
-umap-learn
-pyLDAvis==3.4.1
-holoviews
-bokeh
 scikit-learn
 openai
 wandb
