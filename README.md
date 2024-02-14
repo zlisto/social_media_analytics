@@ -8,30 +8,23 @@ Lecture 04 - Text Embeddings: [![Open In Colab](https://colab.research.google.co
 
 Lecture 06 - Sentiment Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture06_SentimentAnalysis.ipynb)
 
-Lecture 08 - Time Series Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture08_TimeSeriesAnalysis.ipynb)
+Lecture 08 - Dimensionality Reduction: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture08_LowDimensionalEmbedding.ipynb)
 
-Lecture 10 - Network Centrality: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture10_NetworkCentrality.ipynb)
+Lecture 10 - A/B Testing: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture19_ABTesting.ipynb)
 
 Lecture 12 - Community Detection: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture12_CommunityDetection.ipynb)
 
-Lecture 14 - Visualizing Networks: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture14_VisualizingNetworks.ipynb)
+Lecture 13 - Engagement: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture16_Engagement.ipynb)
 
-Lecture 15 - Twitter Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture15_TwitterAnalysis.ipynb)
+Lecture 15 - Text Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture17_NaturalLanguageGeneration.ipynb)
 
-Lecture 16 - Engagement: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture16_Engagement.ipynb)
+Lecture 17 - Image Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
 
-Lecture 17 - Natural Language Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture17_NaturalLanguageGeneration.ipynb)
+Lecture 19 - Image Embeddings
 
-Lecture 19 - A/B Testing: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture19_ABTesting.ipynb)
+Lecture 21 - Time Series Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture08_TimeSeriesAnalysis.ipynb)
 
-
-Lecture 21 - BigGAN: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_BigGAN_TF_Hub_Demo.ipynb)
-
-Lecture 21 - StyleGAN2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_StyleGAN2.ipynb)
-
-Lecture 21 - DALL-E: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
-
-Lecture 23 - Twitter Bot: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture23_TwitterBot.ipynb)
+Lecture 23 - Social Media AI Strategy: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture23_TwitterBot.ipynb)
 
 Note: Tweeting does not work in Colab.  Must be run on your local machine to actually post on Twitter.
 
@@ -45,7 +38,7 @@ HW2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
 HW3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW3.ipynb)
 
-HW4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW4.ipynb)
+HW4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW4_LDE.ipynb)
 
 HW5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW5.ipynb)
 
