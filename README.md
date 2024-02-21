@@ -15,7 +15,7 @@ Lecture 10 - A/B Testing: [![Open In Colab](https://colab.research.google.com/as
 Lecture 12 - Text Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture12_NaturalLanguageGeneration.ipynb)
 
 
-Lecture 13 - Engagement: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture16_Engagement.ipynb)
+Lecture 13 - Engagement: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture13_Engagement.ipynb)
 
 
 
@@ -43,7 +43,7 @@ HW3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
 HW4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW4_LDE.ipynb)
 
-HW5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW5.ipynb)
+HW5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW5_ABTesting.ipynb)
 
 HW6: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW6.ipynb)
 
