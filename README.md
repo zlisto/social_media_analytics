@@ -12,7 +12,7 @@ Lecture 08 - Dimensionality Reduction: [![Open In Colab](https://colab.research.
 
 Lecture 10 - A/B Testing: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture10_ABTesting.ipynb)
 
-Lecture 12 - Text Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture12_NaturalLanguageGeneration.ipynb)
+Lecture 12 - Natural Language Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture12_NaturalLanguageGeneration.ipynb)
 
 
 Lecture 13 - Engagement: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture13_Engagement.ipynb)
