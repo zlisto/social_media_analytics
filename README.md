@@ -15,13 +15,13 @@ Lecture 10 - A/B Testing: [![Open In Colab](https://colab.research.google.com/as
 Lecture 12 - Natural Language Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture12_NaturalLanguageGeneration.ipynb)
 
 
-Lecture 13 - Engagement: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture13_Engagement.ipynb)
+Lecture 13 - Engagement and Project Ideas: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture13_EngagementAndProjectIdeas.ipynb)
 
 
 
 Lecture 15 - Image Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
 
-Lecture 17 - Image Embeddings
+Lecture 17 - Image Analysis
 
 Lecture 19 - Time Series Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture08_TimeSeriesAnalysis.ipynb)
 
