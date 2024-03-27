@@ -19,15 +19,15 @@ Lecture 13 - Engagement and Project Ideas: [![Open In Colab](https://colab.resea
 
 
 
-Lecture 15 - Image Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_DALLE_generation.ipynb)
+Lecture 15 - Image Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture15_ImageGeneration.ipynb)
 
-Lecture 17 - Image Analysis
+Lecture 17 - Image Analysis [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture17_ImageAnalysis.ipynb)
 
-Lecture 19 - Time Series Analysis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture08_TimeSeriesAnalysis.ipynb)
+Lecture 19 - Persuasion: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture19_Persuasion.ipynb)
 
-Lecture 21 - Community Detection: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture12_CommunityDetection.ipynb)
+Lecture 21 - Community Detection: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_CommunityDetection.ipynb)
 
-Lecture 23 - Social Media AI Strategy: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture23_TwitterBot.ipynb)
+Lecture 23 - Social Media AI Strategy: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture23_AIStrategy.ipynb)
 
 Note: Tweeting does not work in Colab.  Must be run on your local machine to actually post on Twitter.
 
