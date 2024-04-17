@@ -51,6 +51,8 @@ HW7: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
 HW8: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW8_ImageAnalysis.ipynb)
 
+HW9: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/HW9_CommunityDetection.ipynb)
+
 
 
 
