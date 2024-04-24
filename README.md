@@ -27,7 +27,7 @@ Lecture 19 - Persuasion: [![Open In Colab](https://colab.research.google.com/ass
 
 Lecture 21 - Community Detection: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture21_CommunityDetection.ipynb)
 
-Lecture 23 - Social Media AI Strategy: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture23_AIStrategy.ipynb)
+Lecture 23 - Social Media AI Strategy: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zlisto/social_media_analytics/blob/main/Lecture23_AISocialMediaStrategy.ipynb)
 
 Note: Tweeting does not work in Colab.  Must be run on your local machine to actually post on Twitter.
 
